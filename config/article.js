@@ -11,10 +11,10 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'The EU Brexit guidelines decoded',
+  headline: 'The EU’s Brexit negotiation guidance decoded',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'The EU’s response to the Brexit letter with FT correspondents’ notes and comments',
+  summary: 'The EU’s Brexit negotiation guidelines, with FT correspondents’ notes and comments',
 
   topic: {
     name: 'Brexit',
@@ -45,7 +45,7 @@ export default () => ({ // eslint-disable-line
   title: 'The EU Brexit guidelines decoded',
 
   // meta data
-  description: 'The EU’s Brexit guidelines with comments from the FT',
+  description: 'The EU’s Brexit negotiation guidelines with comments from the FT',
 
   /*
   TODO: Select Twitter card type -
@@ -61,19 +61,19 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
- socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1200',
+ socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F4d94f956-1570-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1200',
   // socialHeadline: '',
   // socialSummary: 'The UK's Article 50 notification letter, annotated',
 
   // TWITTER
-twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1800',
+twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F4d94f956-1570-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1800',
 twitterCreator: '@ft',
-tweetText:  'The the EU’s Brexit guidelines with comments from the FT',
-twitterHeadline:  'The the EU’s Brexit guidelines, annotated',
+tweetText:  'The the EU’s Brexit negotiation guidelines with comments from the FT',
+twitterHeadline:  'The the EU’s Brexit negotiation guidelines, annotated',
 
   // FACEBOOK
- facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1800',
- facebookHeadline: 'The the EU’s Brexit guidelines, annotated',
+ facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F4d94f956-1570-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1800',
+ facebookHeadline: 'The the EU’s Brexit negotiation guidelines, annotated',
 
   tracking: {
 
