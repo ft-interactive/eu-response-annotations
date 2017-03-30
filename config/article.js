@@ -1,20 +1,20 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '1888b166-13b9-11e7-80f4-13e067d5072c',
+  id: '9b6dbf92-1533-11e7-80f4-13e067d5072c',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/federal-reserve-march-meeting-2017 get filled in by the ./configure script
-  url: 'https://ig.ft.com/article-50-annotated',
+  url: 'https://ig.ft.com/eu-brexit-gudielines-annotated',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Theresa May’s Article 50 letter decoded',
+  headline: 'The EU Brexit guidelines decoded',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'The UK government’s full Brexit letter with FT correspondents’ notes and comments',
+  summary: 'The EU’s response to the Brexit letter with FT correspondents’ notes and comments',
 
   topic: {
     name: 'Brexit',
@@ -37,16 +37,15 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'George Parker', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDgzMA==-QXV0aG9ycw==' },
     { name: 'Alex Barker', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAwMDY3Mg==-QXV0aG9ycw==' },
     { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
   ],
 
   // Appears in the HTML <title>
-  title: 'Article 50 letter decoded',
+  title: 'The EU Brexit guidelines decoded',
 
   // meta data
-  description: 'The full Brexit notification with comments from the FT',
+  description: 'The EU’s Brexit guidelines with comments from the FT',
 
   /*
   TODO: Select Twitter card type -
@@ -69,12 +68,12 @@ export default () => ({ // eslint-disable-line
   // TWITTER
 twitterImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1800',
 twitterCreator: '@ft',
-tweetText:  'The full Brexit notification with comments from the FT',
-twitterHeadline:  'The UK\'s Article 50 notification letter, annotated',
+tweetText:  'The the EU’s Brexit guidelines with comments from the FT',
+twitterHeadline:  'The the EU’s Brexit guidelines, annotated',
 
   // FACEBOOK
  facebookImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=1800',
- facebookHeadline: 'The UK\'s Article 50 notification letter, annotated',
+ facebookHeadline: 'The the EU’s Brexit guidelines, annotated',
 
   tracking: {
 

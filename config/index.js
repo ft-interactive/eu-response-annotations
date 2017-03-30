@@ -29,7 +29,7 @@ export default async function() {
   let twitterHeadline;
   let facebookHeadline;
 
-  const berthaId = '1CcDeL0nHpXlnAeGn2a8iNAmDK-Hw9yn1y6HPxv9nues';
+  const berthaId = '12P7XbJ3b6MnJExkXsUtZjnHk146qzieI3sGxiu6dxpc';
   const endpoint = `http://bertha.ig.ft.com/view/publish/gss/${berthaId}/speech,pageText`;
   try {
     const res = await axios(endpoint);

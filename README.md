@@ -1,8 +1,8 @@
 # article-50-annotations
 
-The UK government 's Article 50 notification – [annotated](https://ig.ft.com/article-50-annotated), March 29, 2017. 
+The the [EU’s Brexit guidelines decoded](https://ig.ft.com/eu-brexit-gudielines-annotated), March 31, 2017. 
 
-Based on previous versions at [trump-first-address](https://github.com/ft-interactive/trump-first-address) and [federal-reserve-march-meeting-2017](https://github.com/ft-interactive/federal-reserve-march-meeting-2017).
+Based on previous versions at [trump-first-address](https://github.com/ft-interactive/trump-first-address), [federal-reserve-march-meeting-2017](https://github.com/ft-interactive/federal-reserve-march-meeting-2017) and [article-50-annotations](https://github.com/ft-interactive/article-50-annotations)
 
 [![Build Status][circle-image]][circle-url] [![Dependency Status][devdeps-image]][devdeps-url]
 
