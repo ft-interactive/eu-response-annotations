@@ -1,0 +1,138 @@
+@import 'o-grid/main';
+@import 'o-icons/main';
+@import 'o-colors/main';
+@import 'o-typography/main';
+
+$o-typography-progressive-fonts: SansData;
+$highlight: rgb(80,212,196);
+
+.o-typography-body-wrapper .annotation-instructions {
+    @include oTypographySansData(l, $load-progressively: true);
+}
+
+.speech {
+    background: oColorsGetPaletteColor(warm-5);
+    box-shadow: 1px 1px 1px 1px rgba(oColorsGetPaletteColor('grey-tint1'), 0.5);
+    padding: 20px 26px;
+    margin-bottom: 20px;
+    @include oGridRespondTo(M) {
+        padding: 20px 40px;
+    }
+    p {
+        color: #505050;
+        line-height: 1.8;
+    }
+}
+
+.speech__quote--top {
+  background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A0eabdc72-13d2-11e7-80f4-13e067d5072c?source=ig&width=60");
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  background-color: transparent;
+  vertical-align: baseline;
+}
+
+.speech__quote--bottom {
+    @include oIconsGetIcon('speech-right', oColorsGetPaletteColor('grey-tint2'), 48);
+}
+
+.speech__quote {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.speech__quote:before,
+.speech__quote:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 48px;
+  top: 24px;
+  border-top: 1px solid oColorsGetPaletteColor('grey-tint2');
+}
+
+.speech__quote:before {
+  left: -60px;
+}
+.speech__quote:after {
+  right: -60px;
+}
+
+.speech__annotation {
+    box-sizing: border-box;
+    visibility: hidden;
+    border-left: 3px solid $highlight;
+    padding-left: 10px;
+    margin: 30px 10px;
+
+    p {
+        @include oTypographySansData(l, $load-progressively: true);
+        font-size: 18px;
+        color: #333333;
+
+        img {
+          margin-top: 10px !important;
+          display: block;
+          width: 100%;
+          max-width: 300px;
+        }
+    }
+    :first-child {
+        margin-top: -5px;
+    }
+    .speech__annotation-byline {
+        display: block;
+        @include oTypographySansData(l, $load-progressively: true);
+        color: #6A6A6A;
+        font-size: 16px;
+        border: 0;
+        margin-bottom: -5px;
+        padding-top: 5px;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.speech__annotation--absolute {
+    position: absolute;
+    margin: 0;
+}
+
+.speech__highlight {
+    outline: none;
+    background-color: rgba(oColorsGetPaletteColor('grey-tint5'), 0.15);
+    padding: 3px 0;
+    transition: background-color 0.3s ease;
+    &[aria-expanded="true"] {
+        background-color: $highlight;
+    }
+    &:hover:not([aria-expanded="true"]) {
+        background-color: rgba($highlight,0.5);
+        cursor: pointer;
+    }
+}
+
+.speech__highlight--pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(oColorsGetPaletteColor('grey-tint5'), 0.15);
+  }
+  50% {
+    background-color: $highlight;
+  }
+  100% {
+    background-color: rgba(oColorsGetPaletteColor('grey-tint5'), 0.15);
+  }
+}

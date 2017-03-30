@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block article_body %}
+
+{% markdown %}
+
+{{ annotations | dump }}
+<div class="o-grid-row">
+
+<section data-o-grid-colspan="12 M10 Mcenter L8 Lpush1 Luncenter XL7" id="speech-intro">
+	<figure class="graphic graphic-b-1 graphic-pad-1">
+  <img alt="Theresa May and Article 50" src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=700"></img>
+    <figcaption class="o-typography-caption">Kari-Ruth Pedersen</figcaption>
+</figure>
+
+{{ intro }}
+
+</section>
+
+<section data-o-grid-colspan="12 M10 Mcenter L8 Lpush1 Luncenter XL7">
+
+<br />
+
+<div class="speech" data-annotation-text data-annotation-id="{{berthaId}}">
+<span class="speech__quote speech__quote--top"></span>
+
+<p style="text-align:center; margin-bottom:0;">10 DOWNING STREET</p>
+<p style="text-align:center; font-size:0.8em; margin-top:0;">LONDON SW1A 2AA</p>
+
+<p>THE PRIME MINISTER <span style="float:right;">29 March 2017</p>
+
+</p>
+
+
+{{ speech | safe }}
+
+
+Yours sincerely,
+
+<img id="signature" src="images/may_signature.svg" width="250">
+
+</div>
+
+
+</section>
+</div>
+{% endmarkdown %}
+{% endblock %}
