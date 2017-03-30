@@ -9,7 +9,7 @@
 
 <section data-o-grid-colspan="12 M10 Mcenter L8 Lpush1 Luncenter XL7" id="speech-intro">
 	<figure class="graphic graphic-b-1 graphic-pad-1">
-  <img alt="Theresa May and Article 50" src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A71231d3a-13c7-11e7-b0c1-37e417ee6c76?source=ig&fit=scale-down&width=700"></img>
+  <img alt="Theresa May and Article 50" src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A04381bd2-7aa0-11e6-ae24-f193b105145e?source=ig&fit=scale-down&width=700"></img>
     <figcaption class="o-typography-caption">Kari-Ruth Pedersen</figcaption>
 </figure>
 
@@ -22,12 +22,20 @@
 <br />
 
 <div class="speech" data-annotation-text data-annotation-id="{{berthaId}}">
-<span class="speech__quote speech__quote--top"></span>
+<!--<span class="speech__quote speech__quote--top"></span>-->
 
-<!-- <p style="text-align:left; margin-bottom:0;">The Council of the European Union</p>
-<p style="text-align:center; font-size:0.8em; margin-top:0;"></p> -->
+<!-- EU council letterhead effect -->
+<div style="text-align:left; position: relative; min-height:85px;">
+    <img src="./images/Council_of_the_European_Union.png" width="100" style="margin:0 10px 0 0; position: absolute;
+    bottom: 0;">
+    <span style="font-family:Helvetica; color:#777; font-size:0.8em; margin:85px 0 0 0; position: absolute;
+    bottom: 0; left: 110px;"><strong>Council of the European Union</strong><br/>General Secretariat</span>
+</div>
+<!-- End letterhead -->
 
-</p>
+<p style="text-align:center; font-size:0.8em; margin-top:0;"></p>
+
+<p style="text-align:right;">Brussels, 31 March 2017</p>
 
 
 {{ speech | safe }}

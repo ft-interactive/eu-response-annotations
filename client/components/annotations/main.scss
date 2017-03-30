@@ -25,7 +25,7 @@ $highlight: rgb(80,212,196);
 }
 
 .speech__quote--top {
-  background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A0eabdc72-13d2-11e7-80f4-13e067d5072c?source=ig&width=60");
+  background-image: url("./images/Council_of_the_European_Union.png");
   background-size: 80px 60px;
   background-repeat: no-repeat;
   width: 48px;
@@ -44,18 +44,12 @@ $highlight: rgb(80,212,196);
 
 .speech__quote {
   position: relative;
-  display: block;
+ // display: block;
   margin: 0 auto;
 }
 
 .speech__quote:before,
 .speech__quote:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 48px;
-  top: 24px;
-  border-top: 1px solid oColorsGetPaletteColor('grey-tint2');
 }
 
 .speech__quote:before {
