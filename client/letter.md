@@ -1,14 +1,14 @@
 NOTE
 
-
-
 From: General Secretariat of the Council
 To: Delegations
 
 
-Subject: European Council (Art. 50) (29 April 2017)
+**Subject: European Council (Art. 50) (29 April 2017)**
+**Draft guidelines following the United Kingdom&#39;s notification under Article 50 TEU**
 
-Draft guidelines following the United Kingdom&#39;s notification under Article
+*Delegations will find attached the draft European Council (Art. 50) guidelines following the United Kingdom's notification under Article 50 TEU, prepared by the President of the European Council.*
+
 
 
 On 29 March 2017, the European Council has received the notification by the United Kingdom of its intention to withdraw from the European Union and Euratom. This allows for the opening of negotiations as foreseen by the Treaty.
